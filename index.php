@@ -19,6 +19,7 @@ function isOnline() {
 
 <?php if(isOnline()): ?>
     <h1>Online</h1>
+    <a href="/logout" title="Sair" name="header:sg_logout_button">Logout</a>
 <?php else: ?>
     <h1>Offline</h1>
 
