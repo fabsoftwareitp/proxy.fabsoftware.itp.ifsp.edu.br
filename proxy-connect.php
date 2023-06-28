@@ -7,4 +7,4 @@ curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, true);
 $curlResponse = curl_exec($curlHandle);
 curl_close($curlHandle);
 
-header("Location: proxy.php");
+header("Location: index.php");
