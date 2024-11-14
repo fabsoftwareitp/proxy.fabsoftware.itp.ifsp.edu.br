@@ -2,7 +2,7 @@
 
 function checkStringConnection($stringToFind) {
     return strpos($stringToFind, "IP address already in use") 
-    || strpos($stringToFind, "Login succeeded");
+    || strpos($stringToFind, "Login succeeded") || strpos($stringToFind, "Conectado");
 }
 
 function isOnline() {
